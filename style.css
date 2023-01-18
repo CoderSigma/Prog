@@ -98,7 +98,7 @@ body {
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .topnav a, .topnav input[type=text] {
     float: none;
     display: block;
@@ -110,4 +110,39 @@ body {
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
+}
+.content{
+	display:block;
+	background-color:#b3b3b3;
+	margin:20px;
+	padding:20px;
+	position:relative;
+	left:10px;
+	top:30px;
+	width:90%;
+	border-radius:10px;
+}
+#about{
+	display:block;
+	background-color:#b3b3b3;
+	margin:20px;
+	padding:20px;
+	position:relative;
+	left:10px;
+	top:30px;
+	width:90%;
+	border-radius:10px;
+}
+#contact{
+	
+	display:block;
+	background-color:#b3b3b3;
+	margin:20px;
+	padding:20px;
+	position:relative;
+	left:10px;
+	top:30px;
+	width:90%;
+	border-radius:10px;
+
 }
